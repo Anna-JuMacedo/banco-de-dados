@@ -6,71 +6,63 @@
   }
   
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f2f2f2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  /* Título acima do formulário */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
   }
   
   /* Container do formulário */
-  .form-container {
-    background: #fff;
+  form {
+    background-color: #fff;
     padding: 30px 40px;
-    border-radius: 12px;
+    border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
   }
   
-  /* Título */
-  .form-container h2 {
-    text-align: center;
-    margin-bottom: 25px;
-    color: #333;
+  /* Estilização dos labels e inputs */
+  label {
+    font-weight: bold;
+    color: #555;
   }
   
-  /* Estilo dos campos */
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
-    color: #444;
-  }
-  
-  .form-group input {
+  input {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 14px;
-    transition: 0.3s ease;
-  }
-  
-  .form-group input:focus {
-    border-color: #28a745;
-    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
   }
   
   /* Botão */
   button {
     width: 100%;
     padding: 12px;
-    background: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
     font-size: 16px;
+    border: none;
+    border-radius: 6px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: background-color 0.3s ease;
   }
   
   button:hover {
-    background: #218838;
+    background-color: #0056b3;
   }
   

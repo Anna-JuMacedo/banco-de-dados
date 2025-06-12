@@ -12,4 +12,5 @@ if($mysqli->connect_errno){
 else
 echo "Conectado ao Banco de dados";
 
+
 ?>
